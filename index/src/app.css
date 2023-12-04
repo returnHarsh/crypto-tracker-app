@@ -1,0 +1,59 @@
+:root{
+    --yellow:#F5C32C;
+    --orange:#FCA61F;
+    --black:#242D49;
+    --gray:#788097;
+    --blueCard:#DDF8FE;
+    --purple:rgb(238 210 255);
+    --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252 , 166 , 31 , 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0,0,0,0.08); 
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Monsterrat' , sans-serif; */
+    background-color: #1a1a1c;
+    color: #fff;
+}
+
+.coin-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    color: #fff;
+}
+
+.coin-search{
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coin-text{
+    margin-bottom: 32px;
+    text-align: center;
+    color: white;
+}
+
+.coin-input{
+    padding-left: 16px;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-image: linear-gradient(-225deg , #ac32e4 0% , #7918f2 48% , #4801ff 100%);
+    color: #e2e2e2;
+}
+
+.coin-input::placeholder{
+    color: #e2e2e2;
+}
+
+
